@@ -82,7 +82,7 @@ ul ul {
 }
 
 #saved-resources > ul > li {
-  width: calc(33.33% - 20px);
+/*   width: calc(33.33% - 20px); */
   /* max-width: 100%; */
   word-wrap: break-word;
   word-break: break-all;
@@ -94,6 +94,10 @@ ul ul {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+li img {
+  width: 100%;
 }
 
 #saved-resources > ul > li h2 {
