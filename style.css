@@ -67,6 +67,7 @@ button:hover {
   background-color: #555;
 }
 
+#saved-resources {width: 100%;}
 #saved-resources > ul {
   display: grid;
   list-style: none;
