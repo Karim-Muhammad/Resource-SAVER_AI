@@ -51,6 +51,7 @@ function getVideoId(url) {
   if (match) {
     videoId = match[1];
   }
+  console.log(videoId);
   return videoId;
 }
 
